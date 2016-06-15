@@ -14,14 +14,30 @@
 }
 
 ul.nav > li {
-	font-size: 13px;
+	font-size: 18px;
 	font-family: Bell MT;
 }
 
 h1 {
 	font-size: 50px;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: Libre Franklin, sans-serif;
 	font-weight: bold;
+}
+
+h3 {
+	background-color: #222222;
+	font-family: Libre Franklin, sans-serif;
+	font-size: 25px;
+	color: white;
+	padding: 35px;
+}
+
+h4 {
+	background-color: white;
+	font-family: Bell MT;
+	font-size: 22px;
+	color: #222222;
+
 }
 
 p {
@@ -34,27 +50,64 @@ p {
 	width:80%;
 }
 
-h3 {
-	background-color: #222222;
-	font-family: 'Libre Franklin';
-	font-size: 25px;
-	color: white;
-	padding: 35px;
-}
-
 .rightAlign {
 	text-align: right;
 }
 
 legend {
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: Libre Franklin, sans-serif;
 	font-size: 25px;
-	color: #222222;
-	font-weight: bold;
+	color: white;
 	border: 0px;
+	padding: 10px;
+	padding-left: 20px;
+	background-color: #222222;
 
 }
 
+.form-control {
+	font-family: Bell MT;
+	font-size: 15px;
+	border-radius: 0px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #222222;
+}
+
+textarea[type=text]:focus {
+    border: 3px solid #222222;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #222222;
+    font-family: Libre Franklin, sans-serif;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    margin: 4px 2px;
+}
+
+input[type=submit]:hover {
+	background-color: white;
+	color:black;
+	font-weight:bold;
+}
+
+
+input[type=reset]:hover {
+	background-color: white;
+	color:black;
+	font-weight:bold;
+}
+
+
+a > img:hover {
+	opacity: .9;
+	background-color: black;
+	border:5px solid black;
+}
 
 
 
