@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Linux Biolinum;
+    src: url(/assets/fonts/LinBiolinum_R.otf);
+}
+
+@font-face {
+    font-family: Bell MT;
+    src: url(/assets/fonts/bell-mt.ttf);
+}
+
+.navbar-brand {
+	font-size: 40px;
+  	font-family: Linux Biolinum;
+}
+
+ul.nav > li {
+	font-size: 13px;
+	font-family: Bell MT;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+
+p {
+	font-family: Bell MT;
+	color: black;
+	font-size: 15px;
+}
+
+.container {
+	width:80%;
+}
+
+h3 {
+	background-color: #222222;
+	font-family: 'Libre Franklin';
+	font-size: 25px;
+	color: white;
+	padding: 35px;
+}
+
+.rightAlign {
+	text-align: right;
+}
+
+legend {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 25px;
+	color: #222222;
+	font-weight: bold;
+	border: 0px;
+
+}
+
+
+
+
+
